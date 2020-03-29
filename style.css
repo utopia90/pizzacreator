@@ -1,0 +1,63 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.hide {
+    display: none;
+}
+#pizza-title {
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+}
+#options-pizza{
+float: left;
+}
+#pizza-display {
+float: right;
+margin-right: 300px;
+z-index: 1;
+position: relative;
+top: 0;
+left: 0;
+}
+#bechamel-pizza {
+    position: absolute;
+     border-radius: 700px;
+     z-index: 2;
+     top: 65px;
+     left: 60px;
+}
+#tomato-pizza {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 3;
+    top: 105px;
+    left: 60px;
+
+}
+#peppers-pizza {
+    position: absolute;
+    border-radius: 300px;
+    z-index: 5;
+    top: 125px;
+     left: 90px;
+}
+
+#olives-pizza {
+    position: absolute;
+    border-radius: 300px;
+    z-index: 6;
+    top: 125px;
+     left: 90px;
+}
+
+#cheese-pizza {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 4;
+    top: 125px;
+     left: 60px;
+
+}

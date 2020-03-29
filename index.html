@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>The Pizza Creator</title>
+</head>
+<body>
+    <h1 id="pizza-title"> Create Your Own Pizza</h1>
+    <div id="pizza-display">
+       <img width=500px heigh=400px id="base-pizza" class="hide" src="./base.jpg"></img>
+       <img width=400px heigh=400px id="bechamel-pizza" class="hide" src="./bechamel.jpg"></img>
+       <img width=420px heigh=700px id="cheese-pizza" class="hide" src="./cheese.jpg"></img>
+       <img width=300px heigh=300px id="olives-pizza" class="hide" src="./olives-removebg-preview.png"></img>
+       <img width=400px heigh=400px id="peppers-pizza" class="hide" src="./peppers-removebg-preview.png"></img>
+       <img width=400px heigh=700px id="tomato-pizza" class="hide" src="tomato.jpg"></img>
+   </div>
+
+    <div id="options-pizza">
+         <div class="column1"><h2 class="base-title">Put a base to your pizza </div> 
+            <div id="ok">
+             <input type="checkbox" name="ok-btn"> Ok!
+            </div>
+         <div class="column2">
+            <h2 class="sauce-title"> Choose a sauce for your pizza</h2>
+            <div id="sauce-options">
+                <input type="checkbox" name="bechamel-btn"> Bechamel sauce <input type="checkbox" name="tomato-btn"> Tomato sauce </div>
+         <div class="column3"><h2 class="topping-title"> Choose your topping </h2> <div id="topping-pizza"><input type="checkbox" name="peppers-btn"> Peppers <input type="checkbox" name="olives-btn"> Black olives <input type="checkbox" name="cheese-btn"> Cheese <input type="checkbox" name="everything-btn"> Everything!</div>
+    </div>
+</body>
+</html>
